@@ -9,12 +9,12 @@ import { transform as esbuildTransform } from 'esbuild';
 /**
  * Vite plugin: Astro extracts <script> blocks as virtual `.js` modules even
  * when they contain TypeScript (e.g. Starlight's Search.astro uses typed
- * parameters like `event?: MouseEvent`). On Linux/Vercel, esbuild processes
- * these with the `js` loader and fails on TS syntax.
+ * parameters like `event?: MouseEvent` or optional params like `param?)`).
+ * On Linux/Vercel, esbuild processes these with the `js` loader and fails on
+ * TS syntax.
  *
- * Instead of matching by ID (which varies per platform), we match by content:
- * any `.js` virtual module containing `?: ` (TypeScript optional parameter
- * syntax) is re-processed with esbuild's `ts` loader to strip types first.
+ * We match by the virtual module ID pattern Astro always uses for extracted
+ * script blocks (`_astro_type_script_`), which is platform-independent.
  */
 function fixAstroScriptTs() {
 	return {
@@ -22,7 +22,7 @@ function fixAstroScriptTs() {
 		enforce: /** @type {'pre'} */ ('pre'),
 		/** @param {string} code @param {string} id */
 		async transform(code, id) {
-			if (id.endsWith('.js') && code.includes('?: ')) {
+			if (id.includes('_astro_type_script_') && id.endsWith('.js')) {
 				try {
 					const result = await esbuildTransform(code, {
 						loader: 'ts',
