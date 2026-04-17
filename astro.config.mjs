@@ -7,7 +7,11 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
-	adapter: vercel(),
+	// Skew protection sets `assetQueryParams` on the Vercel adapter, which enables Astro’s
+	// `plugin-chunk-imports` rewrite. That plugin mishandles dynamic `import()` offsets and can emit
+	// invalid JS (`import("./chunk.js"?dpl=…)`), breaking the client build with `!~{NNN}~` placeholders
+	// and esbuild “Expected ':' but found ')'”. See https://github.com/withastro/astro/issues/16258
+	adapter: vercel({ skewProtection: false }),
 	integrations: [
 		react(),
 		keystatic(),
