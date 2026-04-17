@@ -8,6 +8,11 @@ import vercel from '@astrojs/vercel';
 // https://astro.build/config
 export default defineConfig({
 	adapter: vercel(),
+	vite: {
+		ssr: {
+			noExternal: ['@astrojs/starlight'],
+		},
+	},
 	redirects: {
 		'/admin': '/keystatic',
 	},
