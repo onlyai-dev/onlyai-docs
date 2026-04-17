@@ -3,9 +3,14 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import react from '@astrojs/react';
 import keystatic from '@keystatic/astro';
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
+	adapter: vercel(),
+	redirects: {
+		'/admin': '/keystatic',
+	},
 	integrations: [
 		react(),
 		keystatic(),

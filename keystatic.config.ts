@@ -41,14 +41,19 @@ const languages = [
 ]
 
 const collections: Record<string, ReturnType<typeof collection>> = {}
+const navigation: Record<string, string[]> = {}
 
 for (const lang of languages) {
+  const groupLabel = `${lang.flag} ${lang.prefix === '' ? 'English' : lang.prefix === 'ru_' ? 'Русский' : 'Українська'}`
+  navigation[groupLabel] = []
+
   for (const section of sections) {
     const key = `docs_${lang.prefix}${section.key}`
     collections[key] = docCollection(
-      `${lang.flag} ${section.label}`,
+      section.label,
       `${lang.base}/${section.dir}/*`
     )
+    navigation[groupLabel].push(key)
   }
 }
 
@@ -65,6 +70,7 @@ export default config({
     brand: {
       name: 'OnlyAI Docs',
     },
+    navigation,
   },
   collections,
 })
