@@ -4,14 +4,42 @@ import starlight from '@astrojs/starlight';
 import react from '@astrojs/react';
 import keystatic from '@keystatic/astro';
 import vercel from '@astrojs/vercel';
+import { transform as esbuildTransform } from 'esbuild';
+
+/**
+ * Vite plugin: Astro extracts <script> blocks as virtual `.js` modules even
+ * when they contain TypeScript (e.g. Starlight's Search.astro). esbuild on
+ * Linux fails on TS syntax when using the JS loader. This plugin pre-processes
+ * those virtual modules with esbuild's TSX loader so type annotations are
+ * stripped before the regular build pass runs.
+ */
+function fixAstroScriptTs() {
+	return {
+		name: 'fix-astro-script-ts',
+		enforce: /** @type {'pre'} */ ('pre'),
+		/** @param {string} code @param {string} id */
+		async transform(code, id) {
+			if (id.includes('.astro') && (id.endsWith('lang.js') || id.includes('type_script'))) {
+				try {
+					const result = await esbuildTransform(code, {
+						loader: 'tsx',
+						target: 'esnext',
+						sourcemap: false,
+					});
+					return { code: result.code, map: null };
+				} catch {
+					return null;
+				}
+			}
+		},
+	};
+}
 
 // https://astro.build/config
 export default defineConfig({
 	adapter: vercel(),
 	vite: {
-		ssr: {
-			noExternal: ['@astrojs/starlight'],
-		},
+		plugins: [fixAstroScriptTs()],
 	},
 	redirects: {
 		'/admin': '/keystatic',
