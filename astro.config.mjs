@@ -1,10 +1,14 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import react from '@astrojs/react';
+import keystatic from '@keystatic/astro';
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
+		react(),
+		keystatic(),
 		starlight({
 			title: 'OnlyAI Docs',
 			description: 'User documentation for the OnlyAI dashboard — manage your OnlyFans models, chats, content, and analytics in one place.',
