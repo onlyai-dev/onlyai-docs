@@ -10,80 +10,106 @@ export default defineConfig({
 			description: 'User documentation for the OnlyAI dashboard — manage your OnlyFans models, chats, content, and analytics in one place.',
 			social: [],
 			customCss: ['./src/styles/custom.css'],
+			defaultLocale: 'root',
+			locales: {
+				root: {
+					label: 'English',
+					lang: 'en',
+				},
+				ru: {
+					label: 'Русский',
+					lang: 'ru',
+				},
+				uk: {
+					label: 'Українська',
+					lang: 'uk',
+				},
+			},
 			sidebar: [
 				{
 					label: 'Getting Started',
+					translations: { ru: 'Начало работы', uk: 'Початок роботи' },
 					items: [
-						{ label: 'What is OnlyAI?', slug: 'getting-started/introduction' },
-						{ label: 'Signing In', slug: 'getting-started/signing-in' },
-						{ label: 'Dashboard Overview', slug: 'getting-started/dashboard-overview' },
+						{ label: 'What is OnlyAI?', translations: { ru: 'Что такое OnlyAI?', uk: 'Що таке OnlyAI?' }, slug: 'getting-started/introduction' },
+						{ label: 'Signing In', translations: { ru: 'Вход в систему', uk: 'Вхід до системи' }, slug: 'getting-started/signing-in' },
+						{ label: 'Dashboard Overview', translations: { ru: 'Обзор панели управления', uk: 'Огляд панелі керування' }, slug: 'getting-started/dashboard-overview' },
 					],
 				},
 				{
 					label: 'Models',
+					translations: { ru: 'Модели', uk: 'Моделі' },
 					items: [
-						{ label: 'Models Overview', slug: 'models/overview' },
-						{ label: 'Connecting an OnlyFans Account', slug: 'models/connect-onlyfans' },
-						{ label: 'Model Controls', slug: 'models/controls' },
-						{ label: 'Profile & AI Persona', slug: 'models/profile' },
+						{ label: 'Models Overview', translations: { ru: 'Обзор моделей', uk: 'Огляд моделей' }, slug: 'models/overview' },
+						{ label: 'Connecting an OnlyFans Account', translations: { ru: 'Подключение OnlyFans', uk: 'Підключення OnlyFans' }, slug: 'models/connect-onlyfans' },
+						{ label: 'Model Controls', translations: { ru: 'Управление моделью', uk: 'Керування моделлю' }, slug: 'models/controls' },
+						{ label: 'Profile & AI Persona', translations: { ru: 'Профиль и AI-персона', uk: 'Профіль та AI-персона' }, slug: 'models/profile' },
 					],
 				},
 				{
 					label: 'Chats',
+					translations: { ru: 'Чаты', uk: 'Чати' },
 					items: [
-						{ label: 'Chats Overview', slug: 'chats/overview' },
+						{ label: 'Chats Overview', translations: { ru: 'Обзор чатов', uk: 'Огляд чатів' }, slug: 'chats/overview' },
 					],
 				},
 				{
 					label: 'Content',
+					translations: { ru: 'Контент', uk: 'Контент' },
 					items: [
-						{ label: 'Content Library', slug: 'content/library' },
-						{ label: 'PPV Folders', slug: 'content/ppv-folders' },
-						{ label: 'Welcome & Warmup Content', slug: 'content/welcome-warmup' },
+						{ label: 'Content Library', translations: { ru: 'Библиотека контента', uk: 'Бібліотека контенту' }, slug: 'content/library' },
+						{ label: 'PPV Folders', translations: { ru: 'PPV-папки', uk: 'PPV-папки' }, slug: 'content/ppv-folders' },
+						{ label: 'Welcome & Warmup Content', translations: { ru: 'Приветственный контент', uk: 'Вітальний контент' }, slug: 'content/welcome-warmup' },
 					],
 				},
 				{
 					label: 'Welcome Flow',
+					translations: { ru: 'Приветствие', uk: 'Привітання' },
 					items: [
-						{ label: 'Setting Up Welcome Messages', slug: 'welcome-flow/setup' },
-						{ label: 'Follow-up Sequences', slug: 'welcome-flow/follow-ups' },
+						{ label: 'Setting Up Welcome Messages', translations: { ru: 'Приветственные сообщения', uk: 'Вітальні повідомлення' }, slug: 'welcome-flow/setup' },
+						{ label: 'Follow-up Sequences', translations: { ru: 'Серии follow-up', uk: 'Серії follow-up' }, slug: 'welcome-flow/follow-ups' },
 					],
 				},
 				{
 					label: 'Fan Lists',
+					translations: { ru: 'Списки фанатов', uk: 'Списки фанатів' },
 					items: [
-						{ label: 'Fan Lists & Routing', slug: 'fan-lists/overview' },
+						{ label: 'Fan Lists & Routing', translations: { ru: 'Списки и маршрутизация', uk: 'Списки та маршрутизація' }, slug: 'fan-lists/overview' },
 					],
 				},
 				{
 					label: 'Analytics',
+					translations: { ru: 'Аналитика', uk: 'Аналітика' },
 					items: [
-						{ label: 'Revenue & Stats', slug: 'analytics/overview' },
-						{ label: 'Understanding Metrics', slug: 'analytics/metrics' },
+						{ label: 'Revenue & Stats', translations: { ru: 'Доход и статистика', uk: 'Дохід та статистика' }, slug: 'analytics/overview' },
+						{ label: 'Understanding Metrics', translations: { ru: 'Понимание метрик', uk: 'Розуміння метрик' }, slug: 'analytics/metrics' },
 					],
 				},
 				{
 					label: 'AI Tasks',
+					translations: { ru: 'AI-задачи', uk: 'AI-завдання' },
 					items: [
-						{ label: 'Content Requests', slug: 'content-requests/overview' },
+						{ label: 'Content Requests', translations: { ru: 'Запросы контента', uk: 'Запити контенту' }, slug: 'content-requests/overview' },
 					],
 				},
 				{
 					label: 'Integrations',
+					translations: { ru: 'Интеграции', uk: 'Інтеграції' },
 					items: [
-						{ label: 'Telegram Notifications', slug: 'integrations/telegram' },
+						{ label: 'Telegram Notifications', translations: { ru: 'Уведомления Telegram', uk: 'Сповіщення Telegram' }, slug: 'integrations/telegram' },
 					],
 				},
 				{
 					label: 'Teams',
+					translations: { ru: 'Команды', uk: 'Команди' },
 					items: [
-						{ label: 'Managing Your Team', slug: 'teams/overview' },
+						{ label: 'Managing Your Team', translations: { ru: 'Управление командой', uk: 'Керування командою' }, slug: 'teams/overview' },
 					],
 				},
 				{
 					label: 'Settings',
+					translations: { ru: 'Настройки', uk: 'Налаштування' },
 					items: [
-						{ label: 'Account Settings', slug: 'settings/overview' },
+						{ label: 'Account Settings', translations: { ru: 'Настройки аккаунта', uk: 'Налаштування акаунту' }, slug: 'settings/overview' },
 					],
 				},
 			],
