@@ -36,7 +36,7 @@ const sections = [
 
 const languages = [
 	{ prefix: "", flag: "🇬🇧", base: "src/content/docs" },
-	{ prefix: "ru_", flag: "🇷🇺", base: "src/content/docs/ru" },
+	{ prefix: "ru_", flag: "🪆", base: "src/content/docs/ru" },
 	{ prefix: "uk_", flag: "🇺🇦", base: "src/content/docs/uk" },
 ];
 
@@ -64,7 +64,7 @@ export default config({
 		? { kind: "local" }
 		: {
 				kind: "github",
-				repo: `onlyai-dev/onlyai-docs`,
+				repo: { owner: "onlyai-dev", name: "onlyai-docs" },
 			},
 	ui: {
 		brand: {
