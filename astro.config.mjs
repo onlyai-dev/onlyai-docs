@@ -4,52 +4,10 @@ import starlight from '@astrojs/starlight';
 import react from '@astrojs/react';
 import keystatic from '@keystatic/astro';
 import vercel from '@astrojs/vercel';
-import { transform as esbuildTransform } from 'esbuild';
-
-/**
- * Vite plugin: Astro extracts <script> blocks from .astro files as virtual
- * modules with IDs like `Search.astro?astro&type=script&index=0&lang.ts`.
- *
- * Vite's built-in TypeScript-stripping (esbuild) detects .ts files by
- * stripping the query string and checking the extension — so it sees
- * `Search.astro` (ends in .astro) and skips these modules entirely.
- *
- * The TypeScript syntax (e.g. `event?: MouseEvent` in Starlight's Search)
- * then reaches esbuild's final JS bundling pass untouched, causing a parse
- * error on Vercel/Linux. This plugin intercepts those virtual modules and
- * strips types explicitly.
- */
-function fixAstroScriptTs() {
-	return {
-		name: 'fix-astro-script-ts',
-		enforce: /** @type {'pre'} */ ('pre'),
-		/** @param {string} code @param {string} id */
-		async transform(code, id) {
-			if (id.includes('?astro') && id.includes('type=script')) {
-				try {
-					const result = await esbuildTransform(code, {
-						loader: 'ts',
-						target: 'esnext',
-						sourcemap: false,
-					});
-					return { code: result.code, map: null };
-				} catch {
-					return null;
-				}
-			}
-		},
-	};
-}
 
 // https://astro.build/config
 export default defineConfig({
 	adapter: vercel(),
-	vite: {
-		plugins: [fixAstroScriptTs()],
-	},
-	redirects: {
-		'/admin': '/keystatic',
-	},
 	integrations: [
 		react(),
 		keystatic(),
