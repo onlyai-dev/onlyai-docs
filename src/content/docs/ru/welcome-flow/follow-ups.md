@@ -41,7 +41,7 @@ sidebar:
 - **T+3 дня** — тизер PPV («Есть контент, которым я делюсь только с самыми близкими фанатами…»)
   :::
 
-![](/images/docs/ru-welcome-flow-follow-ups-1.png)
+![](/images/docs/follow-ups/IMG_1023.PNG)
 
 ## Связь с приветственным контентом
 
