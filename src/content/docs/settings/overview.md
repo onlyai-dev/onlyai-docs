@@ -24,5 +24,4 @@ Click **What's New** at the bottom of the sidebar to read the latest release not
 
 ## Signing out
 
-Click **Sign Out** at the bottom of the sidebar.\
-![](/images/docs/overview/%D1%82%D0%B5%D1%81%D1%82%20.JPG)
+Click **Sign Out** at the bottom of the sidebar.
