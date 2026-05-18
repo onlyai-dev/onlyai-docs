@@ -7,7 +7,16 @@ const docSchema = {
 		{ order: fields.number({ label: "Order in sidebar" }) },
 		{ label: "Sidebar" },
 	),
-	content: fields.markdoc({ label: "Content", extension: "md" }),
+	content: fields.markdoc({
+		label: "Content",
+		extension: "md",
+		options: {
+			image: {
+				directory: "public/images/docs",
+				publicPath: "/images/docs/",
+			},
+		},
+	}),
 };
 
 function docCollection(label: string, path: string) {
