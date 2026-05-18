@@ -4,7 +4,6 @@ description: Overview of how the content library works and how it's organized.
 sidebar:
   order: 1
 ---
-
 ## What is the content library?
 
 The content library is a folder-based media management system connected directly to your OnlyFans **Vault**. It's where you store and organize all the media the AI uses to send to fans — PPV content, welcome messages, and warmup drips.
@@ -15,13 +14,23 @@ Access it via **Content** in the model sidebar.
 
 Content is organized into three top-level groups:
 
-| Group | Purpose |
-|-------|---------|
-| **PPV** | Paid content that the AI sends as pay-per-view offers. |
-| **Welcome** | Media sent as part of the welcome message to new subscribers. |
-| **Warmup** | Media used in the warmup drip sequence for re-engaging inactive fans. |
+{% table %}
+- Group
+- Purpose
+---
+- **PPV**
+- Paid content that the AI sends as pay-per-view offers.
+---
+- **Welcome**
+- Media sent as part of the welcome message to new subscribers.
+---
+- **Warmup**
+- Media used in the warmup drip sequence for re-engaging inactive fans.
+{% /table %}
 
 Each group contains **folders** (and optionally subfolders) that map to collections of media from your OnlyFans Vault.
+
+![](/images/docs/library/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.30.09.png)
 
 ## Vault lists
 
@@ -43,6 +52,8 @@ Click the **+** or **Create folder** button within a group. A sheet will slide o
 :::tip
 If you need a new PPV folder quickly while reviewing an AI Task (content request), you can create one directly from the **AI Tasks** page without navigating to the content library.
 :::
+
+![](/images/docs/library/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2021.42.02.png)
 
 ## Editing a folder
 
