@@ -4,7 +4,6 @@ description: Map OnlyFans custom lists to triage lanes so fans are handled corre
 sidebar:
   order: 1
 ---
-
 ## What are fan lists?
 
 OnlyFans lets creators organize subscribers into **custom lists** (e.g. "VIP fans", "free fans", "high spenders"). OnlyAI's **Lists** feature maps those OnlyFans lists to **routing lanes** — rules that tell the AI how to handle fans in each list differently.
@@ -28,9 +27,11 @@ Before setting up a routing lane, make sure the OnlyFans account has custom list
 :::
 
 1. Navigate to the **Lists** tab for the model.
-2. Each **lane** represents a routing behavior. Click **Setup** next to the lane you want to configure.
-3. Connect the lane to one or more OnlyFans custom lists using the list picker.
-4. Save the configuration.
+1. Each **lane** represents a routing behavior. Click **Setup** next to the lane you want to configure.
+1. Connect the lane to one or more OnlyFans custom lists using the list picker.
+1. Save the configuration.
+
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2023.41.57.png)
 
 ## Lane counts
 
