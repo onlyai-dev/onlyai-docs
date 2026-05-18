@@ -4,7 +4,6 @@ description: Manage your personal profile, appearance, and account preferences.
 sidebar:
   order: 1
 ---
-
 ## Accessing settings
 
 Go to **Settings** from the dashboard. The settings page is organized into sections:
@@ -25,4 +24,6 @@ Click **What's New** at the bottom of the sidebar to read the latest release not
 
 ## Signing out
 
-Click **Sign Out** at the bottom of the sidebar.
+Click **Sign Out** at the bottom of the sidebar.\
+\
+![](/images/docs/overview/IMG_2566.JPG)
