@@ -1,10 +1,11 @@
 ---
 title: Setting Up Welcome Messages
-description: Configure the first message new subscribers receive when they follow the model.
+description: >-
+  Configure the first message new subscribers receive when they follow the
+  model.
 sidebar:
   order: 1
 ---
-
 ## What is the welcome flow?
 
 The welcome flow is a series of automated messages sent to a fan when they first subscribe. It's the AI's first impression — and getting it right can significantly increase early engagement and PPV conversions.
@@ -21,24 +22,34 @@ Before configuring messages, make sure the welcome flow is enabled:
 Even if the welcome flow is fully configured, it won't run unless this toggle is on.
 :::
 
+![](/images/docs/setup/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.56.35.png)
+
 ## Configuring the welcome message
 
 The welcome message has two variants, depending on whether OnlyAI knows the fan's name:
 
-| Variant | When it's used |
-|---------|---------------|
-| **Name known** | The fan's name is available from OnlyFans. The message can be personalized. |
-| **No name** | The fan's name isn't available. A generic but warm greeting is used instead. |
+{% table %}
+- Variant
+- When it's used
+---
+- **Name known**
+- The fan's name is available from OnlyFans. The message can be personalized.
+---
+- **No name**
+- The fan's name isn't available. A generic but warm greeting is used instead.
+{% /table %}
 
 1. Navigate to the **Welcome Flow** tab for the model.
-2. Find the **Welcome message** section.
-3. Click **Edit** next to the **Name known** variant and write the personalized version. Use `{name}` as a placeholder where the fan's name should appear.
-4. Click **Edit** next to the **No name** variant and write the fallback version.
-5. Click **Save** for each variant.
+1. Find the **Welcome message** section.
+1. Click **Edit** next to the **Name known** variant and write the personalized version. Use `{name}` as a placeholder where the fan's name should appear.
+1. Click **Edit** next to the **No name** variant and write the fallback version.
+1. Click **Save** for each variant.
 
 :::tip
 Write the welcome message in the model's voice, referencing her persona. Keep it short, warm, and with a soft call to action (e.g. "check out my latest content" or "reply and tell me about yourself").
 :::
+
+![](/images/docs/setup/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2023.39.25.png)
 
 ## Message variants
 
