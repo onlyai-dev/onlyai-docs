@@ -4,7 +4,6 @@ description: Set up multi-stage follow-up messages after the initial welcome.
 sidebar:
   order: 2
 ---
-
 ## What are follow-up sequences?
 
 Follow-up sequences are additional messages sent after the initial welcome message, spaced out over time. They're designed to keep new subscribers engaged during the critical first hours or days after they subscribe.
@@ -37,10 +36,11 @@ To disable a stage temporarily, toggle it off. To remove it permanently, delete 
 :::tip
 A typical high-performing sequence looks like this:
 
-- **T+1 hour** — soft check-in ("Did you get a chance to look at my profile?")
-- **T+24 hours** — engagement prompt ("I posted something special today…")
-- **T+3 days** — PPV tease ("I have some content I only share with my closest fans…")
-:::
+- **T+17 min** — soft check-in ("Did you get a chance to look at my profile?")
+- **T+2 hours 41 min** — engagement prompt ("I posted something special today…")
+- **T+16 hours** — PPV tease ("I have some content I only share with my closest fans…") :::
+
+![](/images/docs/follow-ups/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.55.00.png)
 
 ## Relationship to welcome content
 
