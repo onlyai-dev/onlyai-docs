@@ -26,4 +26,3 @@ Click **What's New** at the bottom of the sidebar to read the latest release not
 
 Click **Sign Out** at the bottom of the sidebar.\
 \
-![](/images/docs/overview/IMG_2566.JPG)
