@@ -4,7 +4,6 @@ description: How to set up media for the welcome message and warmup drip sequenc
 sidebar:
   order: 3
 ---
-
 ## Welcome content
 
 The **Welcome** group in the content library holds media attached to the initial greeting message that new subscribers receive.
@@ -14,13 +13,16 @@ When a fan subscribes and the **Welcome Flow** is enabled, the AI sends a welcom
 ### Setting up welcome content
 
 1. In the **Content** tab, open the **Welcome** group.
-2. Click **Create folder**.
-3. Choose a Vault list containing the media you want to send with welcome messages.
-4. Save the folder.
+1. Click **Create folder**.
+1. Choose prise (optional)
+1. Choose a Vault list containing the media you want to send with welcome messages.
+1. Save the folder.
 
 :::tip
 Keep welcome content light and inviting — a short teaser or a "thank you for subscribing" clip works well. Save the harder sells for the PPV ladder.
 :::
+
+![](/images/docs/welcome-warmup/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.47.52.png)
 
 ## Warmup content
 
@@ -31,13 +33,12 @@ The AI uses warmup content to re-engage fans and nudge them toward buying PPV co
 ### Setting up warmup content
 
 1. In the **Content** tab, open the **Warmup** group.
-2. Create one or more folders and link them to the relevant Vault lists.
-3. Save.
+1. Create one or more folders and link them to the relevant Vault lists.
+1. Save.
+
+![](/images/docs/welcome-warmup/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.48.05.png)
 
 ### Warmup content strategy
-
-- Use different warmup folders for different stages of the drip (e.g. a light re-engagement message for day 3 vs a stronger offer for day 7).
-- The warmup sequence length and cadence are controlled by the **Warmup message limit** in the model's [Settings](/models/controls/#limits).
 
 :::note
 Warmup only runs if the **Warmup** toggle is ON in the model controls.
