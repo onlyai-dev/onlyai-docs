@@ -4,7 +4,6 @@ description: Understanding and using the automation toggles and limits for a mod
 sidebar:
   order: 3
 ---
-
 Every model has four main automation switches. You can find them on the model **Overview** page and also in the **Settings** tab.
 
 ## Automation toggles
@@ -39,15 +38,25 @@ Enables the warmup drip sequence for inactive fans.
 - **ON** — fans who haven't interacted recently receive a series of re-engagement messages.
 - **OFF** — no warmup messages are sent.
 
+![](/images/docs/controls/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.05.20.png)
+
 ## Limits
 
 In the **Settings → Limits** section you can cap how aggressively the AI operates:
 
-| Setting | What it controls |
-|---------|-----------------|
-| **PPV message limit** | Maximum number of PPV messages sent to a fan per period. |
-| **Warmup message limit** | Maximum number of warmup messages sent per fan. |
-| **Sale limit** | A revenue cap — the bot stops making sales offers once this amount is reached. |
+{% table %}
+- Setting
+- What it controls
+---
+- **PPV message limit**
+- Maximum number of PPV messages sent to a fan per period.
+---
+- **Warmup message limit**
+- Maximum number of warmup messages sent per fan.
+---
+- **Sale limit**
+- A revenue cap — the bot stops making sales offers once this amount is reached.
+{% /table %}
 
 Click **Save** after adjusting limits.
 
