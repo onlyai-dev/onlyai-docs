@@ -1,13 +1,16 @@
 ---
 title: Profile & AI Persona
-description: Configure the model's identity, persona, content settings, and AI system prompt.
+description: >-
+  Configure the model's identity, persona, content settings, and AI system
+  prompt.
 sidebar:
   order: 4
 ---
-
 The **Profile** tab is where you define who the model is — both as a real person and as an AI persona. The more complete and accurate the profile, the better the AI performs in chats.
 
 A **completeness indicator** at the top of the profile shows how many sections are filled in. Aim for 100%.
+
+![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2012.45.09.png)
 
 ## Identity
 
@@ -17,6 +20,8 @@ Basic personal information the AI uses to stay in character:
 - **Age** — referenced in conversations and content context.
 - **Location** — city, country, or region.
 - **Timezone** — used for time-aware responses (e.g. "good morning").
+
+![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2021.01.25.jpg)
 
 ## Content & NSFW settings
 
@@ -29,21 +34,25 @@ Controls what type of content the model produces and how explicit the AI's messa
 Set these accurately — they directly influence how the AI writes messages to fans.
 :::
 
+![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2012.52.11.png)
+
+It is also important to add as much additional information about the model as possible.
+
+The more detailed the model profile is — including personality, taboos, red lines, communication style, and preferences — the more accurately the AI can replicate her communication style and avoid unwanted situations in conversations. This directly impacts the quality of fan interactions, the realism of responses, and the stability of Full Chatting.
+
+![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2012.57.31.png)
+
 ## Languages
 
 Add one or more languages the model communicates in. The AI will adapt its responses to match the fan's language when multiple languages are configured.
 
 Use the **Languages** multi-select field to add languages, and the **extra prompt per language** section to provide language-specific instructions if needed.
 
-## System prompt
+![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.00.47.png)
 
-The **System Prompt** is the core instruction set for the AI. It tells the model's bot how to behave, what personality to project, and any special rules to follow.
+You can simplify the setup process by clicking the Generate with AI button. After that, you can edit the generated information if needed.
 
-Click **Edit System Prompt** to open the prompt editor. Changes here have a direct impact on tone, style, and how the AI handles edge cases in conversations.
-
-:::tip
-Write the system prompt in first person, as if the model is describing herself. Include personality traits, communication style, likes, dislikes, and any topics to avoid.
-:::
+![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.01.47.png)
 
 ## Saving the profile
 
