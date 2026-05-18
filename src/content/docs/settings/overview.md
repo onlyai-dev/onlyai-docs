@@ -24,5 +24,4 @@ Click **What's New** at the bottom of the sidebar to read the latest release not
 
 ## Signing out
 
-Click **Sign Out** at the bottom of the sidebar.\
-\
+Click **Sign Out** at the bottom of the sidebar.
