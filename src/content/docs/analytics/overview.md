@@ -1,10 +1,11 @@
 ---
 title: Revenue & Stats
-description: How to use the Analytics page to track revenue, PPV performance, and fan funnels.
+description: >-
+  How to use the Analytics page to track revenue, PPV performance, and fan
+  funnels.
 sidebar:
   order: 1
 ---
-
 ## Accessing analytics
 
 Go to **Analytics** in the agency sidebar (listed under **Intelligence**). This opens the full revenue and stats dashboard.
@@ -12,6 +13,8 @@ Go to **Analytics** in the agency sidebar (listed under **Intelligence**). This 
 :::note
 The **Analytics** page shows live data from your connected models. Make sure you're viewing the correct page and not a preview/demo section.
 :::
+
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2023.44.24.png)
 
 ## Filters
 
@@ -25,11 +28,19 @@ At the top of the page you can narrow the data:
 
 The top section shows revenue broken down by type:
 
-| Metric | What it measures |
-|--------|-----------------|
-| **PPV revenue** | Total earned from pay-per-view messages. |
-| **Tips revenue** | Total earned from direct tips. |
-| **Total revenue** | PPV + tips combined. |
+{% table %}
+- Metric
+- What it measures
+---
+- **PPV revenue**
+- Total earned from pay-per-view messages.
+---
+- **Tips revenue**
+- Total earned from direct tips.
+---
+- **Total revenue**
+- PPV + tips combined.
+{% /table %}
 
 These are displayed as totals and in a **stacked bar chart** over time, so you can see day-by-day trends.
 
@@ -42,15 +53,17 @@ Below revenue you'll find operational metrics:
 - **PPV conversion rate** — percentage of fans who bought after receiving a PPV offer.
 - **AI efficiency** — ratio of revenue generated to messages sent.
 
+![](/images/docs/overview/IMG_1103.PNG)
+
 ## Fan funnel
 
 The funnel visualization shows the drop-off at each stage of the fan journey:
 
 1. New subscribers
-2. Fans who received a message
-3. Fans who replied
-4. Fans who received a PPV offer
-5. Fans who purchased
+1. Fans who received a message
+1. Fans who replied
+1. Fans who received a PPV offer
+1. Fans who purchased
 
 Use the funnel to identify where fans are dropping off and optimize accordingly.
 
