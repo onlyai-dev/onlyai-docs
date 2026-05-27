@@ -10,6 +10,8 @@ OnlyFans lets creators organize subscribers into **custom lists** (e.g. "VIP fan
 
 Access the Lists tab from the model sidebar: **Lists**.
 
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-27%20%D0%BE%2010.56.27.png)
+
 ## Why use list routing?
 
 Different fans deserve different treatment:
