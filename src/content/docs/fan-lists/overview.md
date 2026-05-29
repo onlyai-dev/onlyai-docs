@@ -58,11 +58,11 @@ To expand the list and view it in full, click the **“Fans”** button. If need
 
 #### **No Money Fans**
 
-This block displays users who do not currently have sufficient funds to purchase content. If needed, you can link an existing OnlyFans list to this block or create a new one.
+This block displays users who do not currently have sufficient funds to purchase content.
 
 #### **Error Fans**
 
-This block displays users for whom a system error occurred during processing. If needed, you can link an existing OnlyFans list to this block or create a new one.
+This block displays users for whom a system error occurred during processing.
 
 #### **Paid Fans**
 
