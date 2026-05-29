@@ -42,23 +42,25 @@ Enables the warmup drip sequence for inactive fans.
 
 ## Limits
 
-In the **Settings → Limits** section you can cap how aggressively the AI operates:
+In the **Settings → Limits** section, you can configure restrictions for AI behavior and control when the bot starts selling content and when it stops interacting with fans.
 
 {% table %}
 - Setting
 - What it controls
 ---
-- **PPV message limit**
-- Maximum number of PPV messages sent to a fan per period.
+- **PPV message Number**
+- Defines after how many messages the bot can send the first PPV offer. For example, a value of **8** means that no PPV offers will be sent before the eighth message.
 ---
-- **Warmup message limit**
-- Maximum number of warmup messages sent per fan.
+- **Warmup message Number**
+- Defines the minimum number of warm-up messages before the bot can move to sales. If left empty, no limit will be applied.
 ---
 - **Sale limit**
-- A revenue cap — the bot stops making sales offers once this amount is reached.
+- Defines the spending threshold after which the bot stops chatting with a fan. For example, if set to **$100**, the bot will stop the conversation once the fan has spent $100.
 {% /table %}
 
 Click **Save** after adjusting limits.
+
+![](/images/docs/controls/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-29%20%D0%BE%2013.17.25.png)
 
 :::tip
 Setting a Sale limit is useful if you want to control spend or test PPV strategies at a controlled scale before rolling out to all fans.
