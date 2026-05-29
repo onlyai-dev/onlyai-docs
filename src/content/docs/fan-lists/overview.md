@@ -34,15 +34,15 @@ Before setting up a routing lane, make sure the OnlyFans account has custom list
 
 ![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2023.41.57.png)
 
-### **Automatic Lists**
-
-The following lists are managed automatically by the system and do not require any additional configuration.
+### **List Types**
 
 #### **Fans in Progress**
 
 This block displays the number of users who are currently engaged in an active conversation with the AI.
 
 To expand the list and view it in full, click the **“Fans”** button.
+
+If needed, you can link an existing OnlyFans list to this block or create a new one.
 
 #### **Urgent Fans**
 
@@ -55,6 +55,32 @@ Users may be automatically added to this list in the following situations:
 - the fan sends a tip.
 
 To expand the list and view it in full, click the **“Fans”** button.
+
+If needed, you can link an existing OnlyFans list to this block or create a new one.
+
+![](/images/docs/overview/IMG_1043.jpg)
+
+#### **No Money Fans**
+
+This block displays users who do not currently have sufficient funds to purchase content.
+
+If needed, you can link an existing OnlyFans list to this block or create a new one.
+
+#### **Error Fans**
+
+This block displays users for whom a system error occurred during processing.
+
+If needed, you can link an existing OnlyFans list to this block or create a new one.
+
+#### **Paid Fans**
+
+This block displays users who have completed a payment.
+
+If needed, you can link an existing OnlyFans list to this block or create a new one.
+
+The same configuration options are available for every list. You can select an existing OnlyFans list using **Attach Existing** or create a new one using **Create New**.
+
+Once linked, users will be automatically assigned to the corresponding lists according to the logic of each block.
 
 ## Lane counts
 
