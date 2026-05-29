@@ -18,7 +18,6 @@ Different fans deserve different treatment:
 
 - **VIP fans** — high spenders who should receive premium content and more personalized attention.
 - **Free subscribers** — fans on a free trial who need a gentle push toward paid content.
-- **Expired fans** — lapsed subscribers who might be worth re-engaging.
 
 Without routing, the AI treats every fan the same way. With routing, it adapts its behavior based on which list a fan belongs to.
 
@@ -34,6 +33,28 @@ Before setting up a routing lane, make sure the OnlyFans account has custom list
 1. Save the configuration.
 
 ![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2023.41.57.png)
+
+### **Automatic Lists**
+
+The following lists are managed automatically by the system and do not require any additional configuration.
+
+#### **Fans in Progress**
+
+This block displays the number of users who are currently engaged in an active conversation with the AI.
+
+To expand the list and view it in full, click the **“Fans”** button.
+
+#### **Urgent Fans**
+
+This block displays the number of users who require manual attention from the agency or model.
+
+Users may be automatically added to this list in the following situations:
+
+- the fan suspects they are talking to AI;
+- the fan requests custom content;
+- the fan sends a tip.
+
+To expand the list and view it in full, click the **“Fans”** button.
 
 ## Lane counts
 
