@@ -11,12 +11,13 @@ PPV (pay-per-view) folders are collections of content that the AI sends to fans 
 ## Creating a PPV folder
 
 1. Navigate to the **Content** tab for the model.
-1. Inside the **PPV** group, click **Create folder**.
+1. Inside the **PPV** group, click **Add  folder**.
 1. In the sheet that opens, fill in:
    - **Folder name** — a descriptive internal label (fans don't see this).
-   - **Vault list** — the OnlyFans Vault list containing the media for this folder.
+   - **Select media**  — the OnlyFans Vault list containing the media for this folder.
    - **Price** — how much to charge the fan for this content.
-1. Click **Save**.
+1. To automatically fill in the folder description and other settings, click the **AI Fill** button. AI will analyze the selected content and automatically populate the required fields. After generation, it is recommended to review the result and make any necessary adjustments.
+1. Click **Create Folder**.
 
 The folder is now available for the AI to use.
 
