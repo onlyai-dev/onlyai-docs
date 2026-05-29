@@ -33,7 +33,7 @@ To set up a ladder, create multiple PPV folders and arrange them in order of pri
 A well-structured ladder usually starts with a low-cost teaser folder ($5–$10) and escalates to premium content ($30+). This gives the AI natural progression points to work with.
 :::
 
-![](/images/docs/ppv-folders/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2021.46.17.png)
+![](/images/docs/ppv-folders/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-29%20%D0%BE%2014.30.48.png)
 
 ## Subfolders
 
@@ -41,7 +41,7 @@ Each PPV folder can have **subfolders** to further organize content variations (
 
 Click inside a folder to see its subfolders and add more with the **+** button.
 
-![](/images/docs/ppv-folders/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.40.25.png)
+![](/images/docs/ppv-folders/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-29%20%D0%BE%2014.33.09.png)
 
 ## Editing or deleting a folder
 

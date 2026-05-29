@@ -30,7 +30,7 @@ Content is organized into three top-level groups:
 
 Each group contains **folders** (and optionally subfolders) that map to collections of media from your OnlyFans Vault.
 
-![](/images/docs/library/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.30.09.png)
+![](/images/docs/library/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-29%20%D0%BE%2014.10.16.png)
 
 ## Vault lists
 
@@ -53,7 +53,7 @@ Click the **+** or **Create folder** button within a group. A sheet will slide o
 If you need a new PPV folder quickly while reviewing an AI Task (content request), you can create one directly from the **AI Tasks** page without navigating to the content library.
 :::
 
-![](/images/docs/library/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2021.42.02.png)
+![](/images/docs/library/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-29%20%D0%BE%2014.08.47.png)
 
 ## Editing a folder
 
