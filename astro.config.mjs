@@ -77,6 +77,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Setting Up Welcome Messages', translations: { ru: 'Приветственные сообщения', uk: 'Вітальні повідомлення' }, slug: 'welcome-flow/setup' },
 						{ label: 'Follow-up Sequences', translations: { ru: 'Серии follow-up', uk: 'Серії follow-up' }, slug: 'welcome-flow/follow-ups' },
+						{ label: 'Trigger Messages', translations: { ru: 'Триггерные сообщения', uk: 'Тригерні повідомлення' }, slug: 'welcome-flow/trigger-messages' },
 					],
 				},
 				{
