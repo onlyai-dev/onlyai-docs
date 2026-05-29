@@ -40,9 +40,7 @@ Before setting up a routing lane, make sure the OnlyFans account has custom list
 
 This block displays the number of users who are currently engaged in an active conversation with the AI.
 
-To expand the list and view it in full, click the **“Fans”** button.
-
-If needed, you can link an existing OnlyFans list to this block or create a new one.
+To expand the list and view it in full, click the **“Fans”** button. If needed, you can link an existing OnlyFans list to this block or create a new one.
 
 #### **Urgent Fans**
 
@@ -54,33 +52,23 @@ Users may be automatically added to this list in the following situations:
 - the fan requests custom content;
 - the fan sends a tip.
 
-To expand the list and view it in full, click the **“Fans”** button.
-
-If needed, you can link an existing OnlyFans list to this block or create a new one.
+To expand the list and view it in full, click the **“Fans”** button. If needed, you can link an existing OnlyFans list to this block or create a new one.
 
 ![](/images/docs/overview/IMG_1043.jpg)
 
 #### **No Money Fans**
 
-This block displays users who do not currently have sufficient funds to purchase content.
-
-If needed, you can link an existing OnlyFans list to this block or create a new one.
+This block displays users who do not currently have sufficient funds to purchase content. If needed, you can link an existing OnlyFans list to this block or create a new one.
 
 #### **Error Fans**
 
-This block displays users for whom a system error occurred during processing.
-
-If needed, you can link an existing OnlyFans list to this block or create a new one.
+This block displays users for whom a system error occurred during processing. If needed, you can link an existing OnlyFans list to this block or create a new one.
 
 #### **Paid Fans**
 
-This block displays users who have completed a payment.
+This block displays users who have completed a payment. If needed, you can link an existing OnlyFans list to this block or create a new one.
 
-If needed, you can link an existing OnlyFans list to this block or create a new one.
-
-The same configuration options are available for every list. You can select an existing OnlyFans list using **Attach Existing** or create a new one using **Create New**.
-
-Once linked, users will be automatically assigned to the corresponding lists according to the logic of each block.
+The same configuration options are available for every list. You can select an existing OnlyFans list using **Attach Existing** or create a new one using **Create New**. Once linked, users will be automatically assigned to the corresponding lists according to the logic of each block.
 
 ## Lane counts
 
