@@ -12,6 +12,8 @@ A **completeness indicator** at the top of the profile shows how many sections a
 
 ![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2012.45.09.png)
 
+The higher the profile completion percentage, the more context the AI receives for communicating with fans.
+
 ## Identity
 
 Basic personal information the AI uses to stay in character:
@@ -33,6 +35,10 @@ Controls what type of content the model produces and how explicit the AI's messa
 :::caution
 Set these accurately — they directly influence how the AI writes messages to fans.
 :::
+
+**Content Type** — describes the type of content the model creates.
+
+**NSFW Level** — determines the level of explicitness the AI is allowed to use in conversations.
 
 ![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2012.52.11.png)
 
