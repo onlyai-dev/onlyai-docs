@@ -54,6 +54,10 @@ You can simplify the setup process by clicking the Generate with AI button. Afte
 
 ![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.01.47.png)
 
+A field will appear where you can add all available information about the model. AI will automatically analyze this information and populate the relevant profile sections.After the profile is generated, review the information for accuracy and make any necessary additions or edits.
+
+![](/images/docs/profile/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-29%20%D0%BE%2013.31.02.png)
+
 ## Saving the profile
 
 The profile is divided into sections. Each section has its own **Save** button — you don't need to save everything at once. Changes to unsaved sections are highlighted so you don't lose work.
