@@ -26,6 +26,9 @@ Content is organized into three top-level groups:
 ---
 - **Warmup**
 - Media used in the warmup drip sequence for re-engaging inactive fans.
+---
+- Gifts
+- Free content used to thank fans for tips or send farewell messages.
 {% /table %}
 
 Each group contains **folders** (and optionally subfolders) that map to collections of media from your OnlyFans Vault.
