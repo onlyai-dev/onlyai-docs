@@ -4,7 +4,6 @@ description: A guided tour of the OnlyAI dashboard layout, navigation, and key a
 sidebar:
   order: 3
 ---
-
 ## Layout
 
 The dashboard is split into three areas:
@@ -21,26 +20,45 @@ The sidebar has two modes depending on where you are in the app.
 
 When you're at the top-level dashboard, the sidebar shows agency-wide sections:
 
-| Section | Pages |
-|---------|-------|
-| **Overview** | Dashboard (KPIs + charts for all models) |
-| **Operations** | Models, Chats, Content |
-| **Intelligence** | Analytics, AI Tasks |
-| **Account** | Integrations |
+![](/images/docs/dashboard-overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-06-03%20%D0%BE%2015.42.48.png)
+
+**OVERVIEW:** Dashboard
+
+**OPERATIONS:** Models, Chats, Content
+
+**INTELLIGENCE:** Analytics, Content Requests
+
+**ACCOUNT:** Team, Integrations
 
 ### Model mode
 
 When you open a specific model, the sidebar switches to model-specific tabs:
 
-| Tab | What it shows |
-|-----|--------------|
-| Overview | Controls and quick stats for this model |
-| Chats | All fan conversations |
-| Profile | AI persona and identity settings |
-| Content | Folder-based content library |
-| Welcome Flow | New subscriber greeting sequences |
-| Lists | OnlyFans fan list routing |
-| Settings | Automation, limits, and danger zone |
+![](/images/docs/dashboard-overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-06-04%20%D0%BE%2000.41.24.png)
+
+### MODEL
+
+**Overview** — the main model dashboard with key metrics, statistics, sales performance, and general account information.
+
+**Profile** — configure the model profile, AI settings, automation parameters, limits, and account details.
+
+**Content** — manage content folders, PPV content, Welcome content, Warm-Up materials, Ladder folders, and Gift folders.
+
+### AUDIENCE
+
+**Chats** — view and manage fan conversations, monitor AI performance, and track user interactions.
+
+**Lists** — create and manage fan lists and audience segments.
+
+**Ignore Lists** — configure lists of users that the AI should ignore and exclude from automated communication.
+
+**Welcome Flow** — set up automated welcome message sequences for new subscribers.
+
+**Trigger Messages** — configure automated messages that are sent in response to specific fan actions or events.
+
+### CONFIGURATION
+
+**Settings** — main model settings and configuration options.
 
 ### Model switcher
 
@@ -49,23 +67,27 @@ At the top of the sidebar you'll see the current model name (or "All Models"). C
 - Search and switch to a different model.
 - Return to the agency view (All Models).
 
-### Footer links
-
-At the bottom of the sidebar:
-
-- **What's New** — read the latest release notes.
-- **Add Model** — start the OnlyFans connection wizard.
-- **Sign Out** — log out of your account.
+![](/images/docs/dashboard-overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-06-04%20%D0%BE%2000.49.51.png)
 
 ## Top bar
 
-| Element | Purpose |
-|---------|---------|
-| **Sidebar toggle** | Collapse or expand the sidebar. |
-| **Search bar** | Search fans, conversations, or content. |
-| **Theme toggle** | Switch between light and dark mode. |
-| **Notifications** | Notification bell. |
-| **User avatar** | Displays your initials. |
+![](/images/docs/dashboard-overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-06-04%20%D0%BE%2000.53.53.png)
+
+**Sidebar Toggle** — allows you to collapse or expand the left navigation menu.
+
+**Search Bar** — used to quickly search for fans, conversations, and content across all models.
+
+**Add Model** — creates and connects a new model to the system.
+
+**Notifications** — displays system notifications and important platform events.
+
+**User Avatar** — displays the current user's profile and provides access to account settings.
+
+**Model Filter (All Models)** — allows you to select a specific model or view data across all models.
+
+**Date Range Filter (Last 30 Days)** — allows you to select a time period for displaying statistics and analytics on the Dashboard.
+
+**Dashboard** — the main analytics page providing an overview of key metrics and performance indicators for the selected models.
 
 ## Main dashboard page
 
