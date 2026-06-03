@@ -8,11 +8,11 @@ sidebar:
 ---
 ## What are content requests?
 
-When a fan asks for content and the AI can't match the request to any existing folder in the content library, it creates a **content request** (also called an AI Task). This is the AI flagging a gap in your content library that needs human attention.
+When a fan asks for content and the AI can't match the request to any existing folder in the content library, it creates a **content request** . This is the AI flagging a gap in your content library that needs human attention.
 
-Access content requests via **AI Tasks** in the agency sidebar (under Intelligence).
+Access content requests via **content request** in the agency sidebar (under Intelligence).
 
-![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2023.46.24.png)
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-06-04%20%D0%BE%2001.43.08.png)
 
 ## Why this matters
 
