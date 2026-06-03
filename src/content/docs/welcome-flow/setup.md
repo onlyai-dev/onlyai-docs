@@ -28,16 +28,9 @@ Even if the welcome flow is fully configured, it won't run unless this toggle is
 
 The welcome message has two variants, depending on whether OnlyAI knows the fan's name:
 
-{% table %}
-- Variant
-- When it's used
----
-- **Name known**
-- The fan's name is available from OnlyFans. The message can be personalized.
----
-- **No name**
-- The fan's name isn't available. A generic but warm greeting is used instead.
-{% /table %}
+**Name known** — used when the fan’s name is available from OnlyFans. AI can personalize the message and address the fan by name.
+
+**No name** — used when the fan’s name is not available. In this case, AI sends a generic but friendly message without using a personal name.
 
 1. Navigate to the **Welcome Flow** tab for the model.
 1. Find the **Welcome message** section.
