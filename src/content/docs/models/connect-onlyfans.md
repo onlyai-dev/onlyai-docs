@@ -16,7 +16,7 @@ You'll need:
 
 ## Connection wizard
 
-1. Go to **Models → Add Model** (or click **Add Model** in the sidebar footer).
+1. Go to **Models → Add Model**
 
    ![](/images/docs/connect-onlyfans/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-11%20%D0%BE%2020.45.44.png)
 
