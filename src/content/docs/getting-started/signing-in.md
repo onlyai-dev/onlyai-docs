@@ -4,15 +4,14 @@ description: How to sign in to OnlyAI and what to expect during first-time onboa
 sidebar:
   order: 2
 ---
-
 ## How to sign in
 
 OnlyAI uses **Google sign-in** — there is no separate username or password to create.
 
 1. Go to the OnlyAI login page.
-2. Click **Continue with Google**.
-3. Choose or confirm your Google account.
-4. You'll be redirected automatically after a successful sign-in.
+1. Click **Continue with Google**.
+1. Choose or confirm your Google account.
+1. You'll be redirected automatically after a successful sign-in.
 
 ## First-time access: the waiting room
 
@@ -23,9 +22,9 @@ This is normal. Access to the dashboard requires an administrator to assign you 
 The waiting room page shows four steps:
 
 1. ✅ **Account created** — your Google sign-in was successful.
-2. ✅ **Identity verified** — your account is recognized.
-3. ⏳ **Agency assignment** — waiting for an admin to add you to an agency.
-4. 🔒 **Dashboard access** — unlocks automatically once the assignment is done.
+1. ✅ **Identity verified** — your account is recognized.
+1. ⏳ **Agency assignment** — waiting for an admin to add you to an agency.
+1. 🔒 **Dashboard access** — unlocks automatically once the assignment is done.
 
 The page **checks automatically every 30 seconds** and will redirect you to the dashboard as soon as access is granted. You don't need to refresh manually.
 
@@ -39,4 +38,4 @@ If you've already been assigned to an agency, signing in will take you straight 
 
 ## Signing out
 
-Click your user avatar or initial in the bottom-left corner of the sidebar, then select **Sign out**.
+Click the avatar in the top-right corner of the top navigation bar, then select **Sign Out**.
