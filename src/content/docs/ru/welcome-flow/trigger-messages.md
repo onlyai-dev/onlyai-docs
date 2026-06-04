@@ -78,4 +78,6 @@ Trigger messages — это функция автоматических сооб
 
 Это позволит боту использовать разные варианты сообщений
 
-После настройки и активации функции бот будет автоматически реагировать на лайки и если фан онлайн, и отправлять Trigger-сообщения с учётом заданных ограничений.
+### **Video Guide: Trigger Messages Setup | OnlyAI**
+
+🔗 [https://youtu.be/MhGmd_o1p1k?si=tXTle7-wkUTDc9Ho](https://youtu.be/MhGmd_o1p1k?si=tXTle7-wkUTDc9Ho)
