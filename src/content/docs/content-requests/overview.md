@@ -1,5 +1,5 @@
 ---
-title: Content Requests (AI Tasks)
+title: 'Content Requests '
 description: >-
   How to review and resolve content requests that the AI couldn't handle
   automatically.
