@@ -47,3 +47,7 @@ Welcome Flow настраивается для каждой модели на в
 ## Сохранение
 
 Каждый раздел сообщений сохраняется независимо. Нажимайте **Сохранить** после редактирования каждого варианта, чтобы сохранить изменения.
+
+### **Video Guide: Welcome Flow: Welcome Message, Follow-Up Flow | OnlyAI**
+
+🔗 [https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55](https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55)
