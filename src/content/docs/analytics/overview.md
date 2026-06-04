@@ -28,19 +28,14 @@ At the top of the page you can narrow the data:
 
 The top section shows revenue broken down by type:
 
-{% table %}
-- Metric
-- What it measures
----
-- **PPV revenue**
-- Total earned from pay-per-view messages.
----
-- **Tips revenue**
-- Total earned from direct tips.
----
-- **Total revenue**
-- PPV + tips combined.
-{% /table %}
+**PPV Revenue**\
+Total earnings generated from PPV messages.
+
+**Tips Revenue**\
+Total earnings generated from direct tips.
+
+**Total Revenue**\
+Combined revenue from PPV messages and tips.
 
 These are displayed as totals and in a **stacked bar chart** over time, so you can see day-by-day trends.
 
