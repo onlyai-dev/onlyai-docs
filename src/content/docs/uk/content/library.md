@@ -53,7 +53,7 @@ OnlyAI отримує медіа з підключеного Сховища Only
 
 Натисніть меню **⋯** на папці, щоб редагувати її назву, прив'язаний список Сховища або ціноутворення. Зміни набирають чинності негайно для наступної спроби доставки AI.
 
-### Video Gide **PPV Setup: PPV Folder, On-Request PPV Folder, Ladder Folder | OnlyAI**
+### Video Guide **PPV Setup: PPV Folder, On-Request PPV Folder, Ladder Folder | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/wqln5WSExds?si=AAeuO3BFTy4LeLmk
 
