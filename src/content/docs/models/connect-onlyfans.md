@@ -53,6 +53,10 @@ Some accounts require face verification before OnlyAI can access them. If this h
 Face verification links expire. Complete the scan promptly after copying the URL.
 :::
 
+Video Gide **How to Add a Model | OnlyAI**
+
+&nbsp; &nbsp; 🔗 https://youtu.be/K2MTCC2LqBc?si=4H-W4eEalusdptTj
+
 ## After connecting
 
 Once the connection succeeds, you'll be taken to the new model's **Overview** page. From there you can:
