@@ -38,6 +38,10 @@ sidebar:
 
 ![](/images/docs/follow-ups/IMG_1023.PNG)
 
+### **Video Guide: Welcome Flow: Welcome Message, Follow-Up Flow | OnlyAI**
+
+🔗 [https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55](https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55)
+
 ## Связь с приветственным контентом
 
 Сообщения продолжений могут содержать ссылки на медиафайлы из [папок приветственного контента](/ru/content/welcome-warmup/). Убедитесь, что приветственная библиотека контента настроена, прежде чем активировать продолжения с медиафайлами.
