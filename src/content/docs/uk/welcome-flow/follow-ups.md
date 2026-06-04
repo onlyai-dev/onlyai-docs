@@ -42,6 +42,10 @@ sidebar:
 
 ![](/images/docs/follow-ups/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2013.55.00.png)
 
+### **Video Guide: Welcome Flow: Welcome Message, Follow-Up Flow | OnlyAI**
+
+🔗 [https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55](https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55)
+
 ## Зв'язок із вітальним контентом
 
 Повідомлення повторних контактів можуть посилатися або включати медіа з [папок вітального контенту](/uk/content/welcome-warmup/). Переконайтеся, що бібліотека вітального контенту налаштована, перш ніж активувати повторні контакти, що включають медіа.
