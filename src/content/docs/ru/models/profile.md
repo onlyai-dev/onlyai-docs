@@ -68,6 +68,6 @@ sidebar:
 
 Профиль разделён на секции. У каждой секции есть собственная кнопка **Сохранить** — не нужно сохранять всё сразу. Несохранённые изменения подсвечиваются, чтобы вы не потеряли работу.
 
-## Video Gide **Model Profile Setup | OnlyAI**
+## Video Guide **Model Profile Setup | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/fpNa-Gc7xC8?si=iGtOz_S9Syzx6L0B
