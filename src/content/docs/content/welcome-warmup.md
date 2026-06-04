@@ -44,7 +44,7 @@ The AI uses warmup content to re-engage fans and nudge them toward buying PPV co
 Warmup only runs if the **Warmup** toggle is ON in the model controls.
 :::
 
-### Video Gide **Welcome & Warm-Up Setup | OnlyAI**
+### Video Guide **Welcome & Warm-Up Setup | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/K-n1FrEZtXw?si=b6SCmjAmoR_OTtJy
 
