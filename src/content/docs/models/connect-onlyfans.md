@@ -53,7 +53,7 @@ Some accounts require face verification before OnlyAI can access them. If this h
 Face verification links expire. Complete the scan promptly after copying the URL.
 :::
 
-Video Gide **How to Add a Model | OnlyAI**
+## Video Gide **How to Add a Model | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/K2MTCC2LqBc?si=4H-W4eEalusdptTj
 
