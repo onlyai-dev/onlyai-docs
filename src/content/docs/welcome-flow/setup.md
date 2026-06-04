@@ -53,3 +53,7 @@ Click **Add variant** to create an additional version of the message.
 ## Saving
 
 Each message section saves independently. Click **Save** after editing each variant to preserve your changes.
+
+### **Video Guide: Welcome Flow: Welcome Message, Follow-Up Flow | OnlyAI**
+
+🔗 [https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55](https://youtu.be/Nk0F5h0xWL8?si=F0HN0mj_UC9F0k55)
