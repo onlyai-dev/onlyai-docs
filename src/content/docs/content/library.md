@@ -14,22 +14,13 @@ Access it via **Content** in the model sidebar.
 
 Content is organized into three top-level groups:
 
-{% table %}
-- Group
-- Purpose
----
-- **PPV**
-- Paid content that the AI sends as pay-per-view offers.
----
-- **Welcome**
-- Media sent as part of the welcome message to new subscribers.
----
-- **Warmup**
-- Media used in the warmup drip sequence for re-engaging inactive fans.
----
-- Gifts
-- Free content used to thank fans for tips or send farewell messages.
-{% /table %}
+**PPV** — paid content that AI sends to fans as PPV offers.
+
+**Welcome** — media files sent to new subscribers as part of the welcome message.
+
+**Warmup** — media files used to engage and warm up fans before sending paid content.
+
+**Gifts** — free content that can be sent as a thank-you for tips or as part of farewell messages.
 
 Each group contains **folders** (and optionally subfolders) that map to collections of media from your OnlyFans Vault.
 
