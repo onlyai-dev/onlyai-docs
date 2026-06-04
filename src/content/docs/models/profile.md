@@ -68,6 +68,6 @@ A field will appear where you can add all available information about the model.
 
 The profile is divided into sections. Each section has its own **Save** button — you don't need to save everything at once. Changes to unsaved sections are highlighted so you don't lose work.
 
-## Video Gide **Model Profile Setup | OnlyAI**
+## Video Guide **Model Profile Setup | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/fpNa-Gc7xC8?si=iGtOz_S9Syzx6L0B
