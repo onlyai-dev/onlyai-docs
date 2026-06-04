@@ -38,7 +38,7 @@ OnlyFans may require additional verification during the connection attempt. Two 
 
 ### Two-factor authentication (2FA)
 
-If the account has 2FA enabled, a code entry field will appear. Check the email or authenticator app linked to the OnlyFans account, then enter the code and confirm.
+If the account has 2FA enabled, a code entry field will appear. u the email or authenticator app linked to the OnlyFans account, then enter the code and confirm.
 
 ### Face verification
 
@@ -53,7 +53,7 @@ Some accounts require face verification before OnlyAI can access them. If this h
 Face verification links expire. Complete the scan promptly after copying the URL.
 :::
 
-## Video Gide **How to Add a Model | OnlyAI**
+## Video Guide **How to Add a Model | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/K2MTCC2LqBc?si=4H-W4eEalusdptTj
 
