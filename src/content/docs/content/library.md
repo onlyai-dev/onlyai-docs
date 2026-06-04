@@ -53,7 +53,7 @@ If you need a new PPV folder quickly while reviewing an AI Task (content request
 
 Click the **⋯** menu on a folder to edit its name, linked Vault list, or pricing. Changes take effect immediately for the AI's next delivery attempt.
 
-### Video Gide **PPV Setup: PPV Folder, On-Request PPV Folder, Ladder Folder | OnlyAI**
+### Video Guide **PPV Setup: PPV Folder, On-Request PPV Folder, Ladder Folder | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/wqln5WSExds?si=AAeuO3BFTy4LeLmk
 
