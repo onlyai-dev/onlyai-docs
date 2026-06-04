@@ -75,3 +75,7 @@ sidebar:
 Це дозволить боту використовувати різні варіанти повідомлень.
 
 Після налаштування та активації функції бот автоматично реагуватиме на лайки та наявність фана онлайн, надсилаючи Trigger-повідомлення з урахуванням встановлених обмежень.
+
+### **Video Guide: Trigger Messages Setup | OnlyAI**
+
+🔗 [https://youtu.be/MhGmd_o1p1k?si=tXTle7-wkUTDc9Ho](https://youtu.be/MhGmd_o1p1k?si=tXTle7-wkUTDc9Ho)
