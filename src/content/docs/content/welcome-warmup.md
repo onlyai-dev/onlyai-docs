@@ -44,6 +44,10 @@ The AI uses warmup content to re-engage fans and nudge them toward buying PPV co
 Warmup only runs if the **Warmup** toggle is ON in the model controls.
 :::
 
+### Video Gide **Welcome & Warm-Up Setup | OnlyAI**
+
+&nbsp; &nbsp; 🔗 https://youtu.be/K-n1FrEZtXw?si=b6SCmjAmoR_OTtJy
+
 ## Relationship between content and welcome flow
 
 The content library holds the **media**. The **Welcome Flow** tab controls the **message copy and timing**. Both need to be configured for a complete new-subscriber experience.
