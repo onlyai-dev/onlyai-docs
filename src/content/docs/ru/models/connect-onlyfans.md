@@ -53,7 +53,7 @@ sidebar:
 Ссылки для верификации по лицу имеют ограниченный срок действия. Выполните сканирование сразу после копирования URL.
 :::
 
-## Video Gide **How to Add a Model | OnlyAI**
+## Video Guide **How to Add a Model | OnlyAI**
 
 &nbsp; &nbsp; 🔗 https://youtu.be/K2MTCC2LqBc?si=4H-W4eEalusdptTj
 
