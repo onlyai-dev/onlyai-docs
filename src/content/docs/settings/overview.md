@@ -13,7 +13,7 @@ The Automation section displays the main AI operating parameters. Here you can s
 - whether the All Send Warm-Up function is active
 - whether Welcome Flow is enabled
 
-![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2015.00.56.png)
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-31%20%D0%BE%2023.52.40.png)
 
 Below are the main limits and restrictions for Full Chatting.
 
@@ -35,7 +35,7 @@ Defines the spend limit up to which the AI continues communicating with the fan 
 
 For example, if the limit is set to 100$, the AI will continue chatting and selling to the fan until this spend amount is reached. After reaching the limit, the chat can be transferred to a manager or chatter depending on the settings.
 
-![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2015.02.01.png)
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-31%20%D0%BE%2023.52.51.png)
 
 ## VIP Club
 
@@ -48,7 +48,7 @@ If the model has a VIP Club, this section allows you to add additional informati
 
 When requested by a fan, the AI will be able to automatically provide information about the VIP Club, explain what is included in the subscription, what content is available, what benefits the user will receive, and under what conditions access is provided.
 
-![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2015.02.34.png)
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-31%20%D0%BE%2023.53.05.png)
 
 ## Account Settings
 
@@ -59,4 +59,4 @@ By clicking on it, you can:
 - switch between light and dark interface themes
 - use Sign Out to log out of your account
 
-![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-12%20%D0%BE%2015.04.24.png)
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-31%20%D0%BE%2023.58.20.png)
