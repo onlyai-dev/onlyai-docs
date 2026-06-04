@@ -75,3 +75,7 @@ Before activation, it is recommended to prepare:
 This allows the bot to use a variety of messages and avoid repetitive interactions.
 
 Once enabled, the bot will automatically react to likes and online activity, sending Trigger Messages according to the configured restrictions.
+
+### **Video Guide: Trigger Messages Setup | OnlyAI**
+
+🔗 [https://youtu.be/MhGmd_o1p1k?si=tXTle7-wkUTDc9Ho](https://youtu.be/MhGmd_o1p1k?si=tXTle7-wkUTDc9Ho)
