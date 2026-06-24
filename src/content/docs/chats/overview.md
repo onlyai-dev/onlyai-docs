@@ -52,6 +52,10 @@ If a fan writes in a different language, use the **Translation language** select
 
 At the top of the conversation, information about the selected fan is displayed, along with additional actions for managing the chat.The **Stop Bot** button allows you to stop AI responses only for a specific conversation without disabling the bot for the entire model. After that, AI will no longer reply in this chat, and the conversation can be continued manually.
 
+![](/images/docs/overview/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-06-24%20%D0%BE%2016.02.26.png)
+
+You can also manually resume the bot directly from this chat. If the bot was previously stopped, it will continue the conversation from where it left off.
+
 ## Deep-linking to a specific fan
 
 Several parts of the dashboard link directly to a fan's conversation with a pre-selected context:
