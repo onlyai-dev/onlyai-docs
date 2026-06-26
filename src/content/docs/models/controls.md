@@ -4,7 +4,7 @@ description: Understanding and using the automation toggles and limits for a mod
 sidebar:
   order: 3
 ---
-Every model has four main automation switches. You can find them on the model **Overview** page and also in the **Settings** tab.
+Every model has four main automation switches. You can find them on the model **Overview** page and also in the **Settings** tab.!
 
 ## Automation toggles
 
