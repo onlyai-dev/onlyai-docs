@@ -44,23 +44,31 @@ Enables the warmup drip sequence for inactive fans.
 
 In the **Settings → Limits** section, you can configure restrictions for AI behavior and control when the bot starts selling content and when it stops interacting with fans.
 
-{% table %}
-- Setting
-- What it controls
----
-- **PPV message Number**
-- Defines after how many messages the bot can send the first PPV offer. For example, a value of **8** means that no PPV offers will be sent before the eighth message.
----
-- **Warmup message Number**
-- Defines the minimum number of warm-up messages before the bot can move to sales. If left empty, no limit will be applied.
----
-- **Sale limit**
-- Defines the spending threshold after which the bot stops chatting with a fan. For example, if set to **$100**, the bot will stop the conversation once the fan has spent $100.
-{% /table %}
+All limits are set as a range of message numbers. For each new chat, the bot randomly selects a number within the specified range. This makes the timing feel more natural and prevents the bot from behaving the same way in every conversation. We recommend keeping the range small, with no more than a 2–3 message difference between the values. If both fields are left empty, the corresponding limit will be disabled.
+
+### **First PPV — earliest**
+
+The minimum number of messages after which the bot can send its first PPV. For example, if the range is set to 5–8, the bot will send the first PPV no earlier than after 5–8 messages.
+
+### **First PPV — send by**
+
+The maximum number of messages by which the bot should send its first PPV. If the bot has not sent a PPV by this point, it will send one automatically. If both fields are left empty, this limit will not be applied.
+
+### **Warmup — earliest**
+
+The minimum number of messages after which the bot can send a warmup message. A warmup is a teaser message sent before a PPV to make the offer feel more natural.
+
+### **Warmup — send by**
+
+The maximum number of messages by which the bot should send a warmup message. If the bot has not sent a warmup by this point, it will send one automatically. If both fields are left empty, this limit will not be applied.
+
+### **Sale limit**
+
+The total sales amount  after which the bot will exit the chat with the fan.
 
 Click **Save** after adjusting limits.
 
-![](/images/docs/controls/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-05-29%20%D0%BE%2013.17.25.png)
+![](/images/docs/controls/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-06-26%20%D0%BE%2014.09.22.png)
 
 :::tip
 Setting a Sale limit is useful if you want to control spend or test PPV strategies at a controlled scale before rolling out to all fans.
